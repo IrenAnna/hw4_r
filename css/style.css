@@ -10,7 +10,7 @@ body {
     text-align: center;
 }
 
-img {
+.card-image {
     margin-top: 4em;
 }
 
@@ -20,33 +20,31 @@ img {
 
 .card-content {
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 7em;
 }
-
-.card-content-item {
+.card-content-item{
+    margin-bottom: 0.5em;
     display: flex;
     align-items: center;
     gap: 0.9em;
-    padding-left: 3em;
-    margin-bottom: 1em;
+    padding-left: 4em;
 }
 
-.card-content-item::before {
-    content: "\2714";
-    color: green;
-    font-size: 1em;
-    margin-bottom: 0.1em;
-    padding-right: 1em;
-   margin-left: 0.5em;
+/*.card-content-item::before {*/
+   /* content: "\2714";*/
+   /* color: green;*/
+   /* font-size: 1em;*/
+   /* margin-bottom: 0.1em;*/
+   /* padding-right: 1em;*/
+   /*margin-left: 0.5em;*/
 }
 
 .card-price {
-    margin-top: 8em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 button {
-
+    margin-top: 2em;
     width: 13em;
     height: 3em;
     border-radius: 5em;
